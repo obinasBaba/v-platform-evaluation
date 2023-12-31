@@ -1,0 +1,42 @@
+@use 'src/styles/index' as s;
+
+.swiper_wrap {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  box-shadow: 0 0.2rem .5rem rgba(0, 0, 0, 0.07);
+  margin-top: -1rem;
+
+
+  .swiper {
+    position: relative;
+    padding: 1.5rem 1rem;
+    width: 100%;
+
+    & :global {
+      .swiper-wrapper {
+        gap: .5rem;
+      }
+    }
+
+    .slide {
+      position: relative;
+      width: max-content !important;
+      //height: 100% !important;
+      //height: max-content !important;
+      //align-self: stretch;
+      height: auto;
+      display: grid;
+      place-items: center;
+      margin: 0 !important;
+
+      button {
+        background: linear-gradient(90deg, #47248d 0%, #8E2DE2 100%);
+        color: white;
+      }
+
+    }
+  }
+
+}
+

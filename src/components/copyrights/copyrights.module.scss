@@ -1,0 +1,23 @@
+@use 'src/styles/index' as s;
+
+.items {
+  gap: .5rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.2rem .5rem rgba(0, 0, 0, 0.07);
+
+  li {
+    // hide more than 1 line
+    //display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-weight: 300;
+    color: gray;
+    flex: 1;
+  }
+
+
+}
+

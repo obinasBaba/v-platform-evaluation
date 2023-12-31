@@ -1,0 +1,19 @@
+@use 'src/styles/index' as s;
+
+.container {
+  width: 100%;
+  min-height: 100dvh;
+  position: relative;
+  z-index: 1;
+  max-width: 90rem;
+  margin: 5rem auto;
+  padding-bottom: 10vmax;
+
+  // @include s.margin(top, 10rem);
+  // @include s.padding(bottom, 8rem);
+
+
+}
+
+
+

@@ -1,0 +1,31 @@
+@use 'src/styles/index' as s;
+
+.container {
+  max-width: 60rem;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  // give it a card box shadow
+  box-shadow: 0 0.2rem .5rem rgba(0, 0, 0, 0.07);
+
+  & :local {
+
+
+    .list_item {
+      padding-left: 0;
+    }
+
+    .status {
+      @include s.v-btn;
+      background: linear-gradient(90deg, #8E2DE2 0%, #2d1360 100%);
+
+    }
+
+    .desc {
+      padding: 1rem;
+      color: gray;
+      font-weight: 300;
+    }
+
+  }
+}

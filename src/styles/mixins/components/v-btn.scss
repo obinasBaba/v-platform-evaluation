@@ -1,0 +1,10 @@
+// give me a mixin
+
+@mixin v-btn {
+  background: linear-gradient(62deg, #016dea 27.41%, #fa0101 95.02%) padding-box, linear-gradient(62deg, #fa0101 27.41%, #016dea 95.02%) border-box;
+  color: white;
+  line-height: 100%;
+  padding: .6rem 1.4rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+}
